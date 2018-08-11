@@ -1,0 +1,20 @@
+; Jump count. Set 0 or 1 to disable. -1 for infinite jumps and any other number for that many jumps total.
+-1
+
+; Requires perk. Set form ID of perk here (including mod index). Example setting 0x5820c would require vanilla "Light Foot" perk from sneak tree.
+0x1046bd
+
+; Limit fall time. If greater than zero then you can't double jump after being in air for this many seconds. Decimal places is ok now.
+0
+
+; Allow jump when sprinting. Set 1 to allow and 0 for normal behavior. It doesn't actually make you jump faster, just allows it.
+1
+
+; Jump height multiplier for all jumps (always multiplied).
+1
+
+; Jump height multiplier for second jump (multiplied if second or more jump).
+1
+
+; Jump height multiplier for sprint jump (multiplied if sprinting and jumping). This also is applied if you start to sprint while in air and doing second jump.
+1.0
