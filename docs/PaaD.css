@@ -47,7 +47,7 @@ background-image: linear-gradient(90deg,
 	  rgba(0,0,0,0) 3%,
 	  rgba(0,0,0,0) 97%,
     var(--BGCurtainColor) 100%),
-							url("PD4.png");
+							url("PD4.jpg");
 }
 
 #dBackground2 {position:absolute;
@@ -57,7 +57,7 @@ z-index:-9;
 width:100vw;
 max-height:1080px;
 max-width:1920px;
-background-image:url("PD2.png");
+background-image:url("PD2.jpg");
 background-repeat:no-repeat;
 background-position: 100% 0%;
 box-shadow:0px 0px 50px 10px var(--BGCurtainColor) inset;
@@ -71,7 +71,7 @@ z-index:-9;
 width:100vw;
 max-height:1080px;
 max-width:1920px;
-background-image:url("PD1.png");
+background-image:url("PD1.jpg");
 background-repeat:no-repeat;
 background-position: 0% 100%;
 background-size:auto 100%;
