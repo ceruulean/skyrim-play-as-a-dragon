@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) --><?xml-stylesheet type="text/css" href="PaaD.css" ?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="30" width="30" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" fill-rule="nonzero" transform="translate(-177.78683,-634.46362)">
+  <path id="NavIconBG" d="m587.91,560.42c0,97.631-79.146,176.78-176.78,176.78-97.631,0-176.78-79.146-176.78-176.78,0-97.631,79.146-176.78,176.78-176.78,97.631,0,176.78,79.146,176.78,176.78z" transform="matrix(0.08485281,0,0,0.08485281,157.90112,601.91059)" fill="#2d303d"/>
+  <g id="g3806" transform="translate(1.0104017,-4.0481586e-6)" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="0.09799454" fill="#FFF">
+   <rect id="rect2991" ry="1.4005" height="3.3481" width="15.883" y="640.55" x="183.83"/>
+   <rect id="rect2991-1" ry="1.4005" height="3.3481" width="15.883" y="647.79" x="183.83"/>
+   <rect id="rect2991-7" ry="1.4005" height="3.3481" width="15.883" y="655.03" x="183.83"/>
+  </g>
+ </g>
+</svg>
