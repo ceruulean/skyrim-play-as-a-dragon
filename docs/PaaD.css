@@ -32,6 +32,7 @@ z-index:-10;
 }
 
 #dBackground1 {
+top:10vh;
 width:100%;
 max-width:1280px;
 height:720px;
@@ -51,7 +52,9 @@ background-image: linear-gradient(90deg,
 }
 
 #dBackground2 {position:absolute;
-top:0;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
 margin:0 auto;
 z-index:-9;
 width:100vw;
@@ -83,6 +86,7 @@ padding-bottom:56.25%;
 position:fixed;
 margin:0 auto;
 width:100vw;
+height:100vh;
 background:var(--BGCurtainColor);
 z-index:-10;
 }
@@ -204,7 +208,7 @@ font-size:1.1em;}
 }
 
 .Main > div{background-color: var(--MainBGColor);
-padding:1em 2em;
+padding:1em 2em 3em 2em;
 
 position:relative;
 font-size:1em;
@@ -273,9 +277,10 @@ margin:0 auto 20em 23em;
 
 #Main3{ max-width:var(--ReadWidth);
 float:right;
-margin:7vh 10vw;}
+margin:0 10vw 20vh 10vw;}
 
 #Main4 {clear:both;
+margin:0 auto 30vh auto;
 }
 
 #Main5 {margin:10vh 15vw;
@@ -307,7 +312,8 @@ table{border-collapse:collapse;
 
 #perkGraph {background-image:url(DragonPerkTree.svg);
 background-repeat:no-repeat;
-width:1200px;
+width:80vw;
+max-width:1200px;
 height:620px;
 z-index:0;
 position:relative;
@@ -343,20 +349,24 @@ padding:5vh 3vw;
 }
 
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
      /* start of large tablet styles */
-
-#TitleBanner {
-transform:scale(0.8);
-}
 
 #dBackground1{
 height:0;
 padding-top:56.25%;
 }
 
-#perkGraph {transform:scale(0.7);
-width:100%;
+.Main > div:focus, .Main > div:active {opacity:1;
+}
+
+#Main2{
+margin:0 auto 20em auto;
+}
+
+
+#perkGraph {height:0;
+padding-bottom:51.66%;
 }
 
 }
@@ -365,17 +375,13 @@ width:100%;
      /* start of medium tablet styles */
 
 #TitleBanner {
-transform:scale(0.6);
+transform:scale(0.7);
 }
+
+#NavIcon{transform:scale(2);}
 
 #dBackground3{min-height:50vh;}
 
-.Main > div:focus, .Main > div:active {opacity:1;
-}
-
-#perkGraph {transform:scale(0.5,0.5);
-margin:0 0 0 0;
-}
 
 }
 
@@ -386,9 +392,7 @@ margin:0 0 0 0;
 transform:scale(0.5);
 }
 
-	#perkGraph {transform:scale(0.3,0.3);
-margin:0 0 0 0;
-}
+
 
 }
 
