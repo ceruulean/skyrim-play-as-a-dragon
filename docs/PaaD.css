@@ -134,6 +134,9 @@ position:absolute;
 fill: var(--NavIconActColor); !important
 }
 
+#socialmedia{
+z-index:4;}
+
 #nav{
 position:absolute;
 z-index:3;
@@ -394,6 +397,21 @@ margin-left:2em;
 
 #NavIcon{
 margin:0.4em 0 0 1.2em;}
+
+.PerkGraphTitle {
+position:relative;}
+
+.PerkGraphInfo{
+}
+
+}
+
+@media screen and (max-height: 479px) {
+     /* horizontal phone layout */
+
+#nav{font-size:25px;
+}
+
 
 }
 
