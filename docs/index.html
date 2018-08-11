@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>[Skyrim Classic Mod] Play as a Dragon</title>
+  <link rel="stylesheet" href="PaaD.css">
+</head>
+
+<body>
+<div class="dBackgroundContainer">
+		<div id="dBackground1" class="cBGImg" style="display:none;"><div class="cCurtain"></div></div>
+		<div id="dBackground2" class="cBGImg" style="display:none;"></div>
+		<div id="dBackground3" class="cBGImg"></div>
+		</div>
+<div id="TitleBannerHolder">
+	<div id="TitleBanner" class="cBannerPosRelative">
+		<div id="NavIcon"><div id="NavClicker"></div>
+<svg id="svgNavIcon" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="30" width="30" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+ <metadata id="metadata7">
+
+  <rdf:RDF>
+
+   <cc:Work rdf:about="">
+
+    <dc:format>image/svg+xml</dc:format>
+
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+
+    <dc:title/>
+
+   </cc:Work>
+
+  </rdf:RDF>
+
+ </metadata>
+
+ <g id="layer1" fill-rule="nonzero" transform="translate(-177.78683,-634.46362)">
+
+  <path id="NavIconBG" d="m587.91,560.42c0,97.631-79.146,176.78-176.78,176.78-97.631,0-176.78-79.146-176.78-176.78,0-97.631,79.146-176.78,176.78-176.78,97.631,0,176.78,79.146,176.78,176.78z" transform="matrix(0.08485281,0,0,0.08485281,157.90112,601.91059)" fill="#2d303d"/>
+
+  <g id="g3806" transform="translate(1.0104017,-4.0481586e-6)" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="0.09799454" fill="#FFF">
+
+   <rect id="rect2991" ry="1.4005" height="3.3481" width="15.883" y="640.55" x="183.83"/>
+
+   <rect id="rect2991-1" ry="1.4005" height="3.3481" width="15.883" y="647.79" x="183.83"/>
+
+   <rect id="rect2991-7" ry="1.4005" height="3.3481" width="15.883" y="655.03" x="183.83"/>
+
+  </g>
+
+ </g>
+
+</svg>
+</div><h1><a id="ScrollTopTrigger">Play as a Dragon</a></h1>
+
+		<div id="nav" style="display:none;"><ul id="NavUl">
+											<a id="a_About"><li>About</li></a>
+											<a id="a_Install"><li>Install</li></a>
+											<a id="a_Settings"><li>Controls & Settings</li></a>
+											<a id="a_Perks"><li>Perks</li></a>
+											<a id="a_Changelog"><li>Changelog</li></a>
+												</ul></div>
+
+	</div>
+</div>
+
+
+<div id="socialmedia"><a href="https://www.nexusmods.com/skyrim/mods/92589" target="_blank"><img src="Logo-Nexus.svg"></a><img id="YoutubeToggle" style="cursor:pointer;" src="Logo-Youtube.svg"></div>
+<figure id="figTrailer" style="display:none;"><a></a>
+<div class="YoutubeWrap"><iframe width="560" height="315" src="https://www.youtube.com/embed/e781Hx94VzM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+</figure>
+
+<div class="Main">
+<div id="Main1">
+<h2>About</h2>
+<p>"Play as a Dragon" is a modification for <i>The Elder Scrolls V: Skyrim</i>.
+<br>The purpose of this mod is to let the player transform into a dragon.
+<br>There are some perks included but the mod does not force roleplaying or video game progression mechanics (such as a questline to "earn" the power)</p>
+<p>When the game loads, you will receive a power called "Dragon Form."</p>
+
+<h2>Thanks to:</h2>
+<p>Zartar's <a href="https://www.nexusmods.com/skyrim/mods/38376">Skyrim Behavior Organizer</a>
+<br>fore's <a href="https://www.nexusmods.com/skyrim/mods/32113">CondenseBehavior</a>
+<br>theru's <a href="https://www.nexusmods.com/skyrim/mods/17109">convert-xml-hkx-kf UI</a>
+<br>The previous iteration of this mod <a href="https://www.nexusmods.com/skyrim/mods/25261">Burning Skies</a>
+
+<h2>Known Issues</h2>
+<ul><li>Expect lots of random crashing: unknown cause, perhaps due to system load, script load, behavior edits not cooperating with the engine, etc. 1st person seems to trigger it, especially if trying to cast spells or do weird stuff</li>
+<li>Cannot shout in non-combat mode while hovering</li>
+</ul>
+</div>
+
+<a id="a_Install"></a>
+<div id="Main2">
+<h2>Installation</h2>
+
+<h3>Download from <a href="https://www.nexusmods.com/skyrim/mods/92589">Nexus</a> | Google Drive?</h3>
+
+<h3>REQUIRES "Better Jumping" by meh321: <a href="https://www.nexusmods.com/skyrim/mods/65044">Click here to install</a>
+<br> REQUIRES SKSE 1.7.3 (original Skyrim): <a href="http://skse.silverlock.org/">Click here to install</a></h3>
+
+<ol><li>Install <i>Better Jumping</i></li>
+<li>When you install <i>PlayableDragon</i>, let it overwrite "Data/SKSE/Plugins/DoubleJumpPlugin.txt" (if you use a mod manager, make sure PD is loaded after BJ.)</li>
+<li>PlayableDragon.ini is included to increase the max zoom distance. Any custom camera tweak mods should be loaded after PlayableDragon.</li></ol>
+
+<h3>INCOMPATIBLE</h3>
+<ul><li>Fore's New Idles</li></ul>
+
+<h3>Optional Mods</h3>
+<a href="https://www.nexusmods.com/skyrim/mods/3863?">SkyUI</a> - For the convenient MCM menu
+<br><a href="https://www.nexusmods.com/skyrim/mods/83175">Individualized Shout Cooldowns</a> - An SKSE plugin
+<br><a href="https://www.nexusmods.com/skyrim/mods/60934">Dragon Animation Replace</a> - Since the player uses a custom race, you can have player-custom animations in "Data/meshes/actors/PDdragon/animations"
+</div>
+
+<div id="Main3">
+<h2>Controls and Settings</h2>
+<table class="tControls"><tr><td>
+<h3>GROUND CONTROLS</h3>
+<p>Takeoff, [Jump]
+<br>Lay down, [Sneak]
+<br>Bite, [Right Attack]
+<br>Tail slam, [Left Attack]
+<br>Wing slam, [Dual Attack] (while moving left or right)</p>
+</td><td>
+<h3>AIR CONTROLS</h3>
+<p>Flap, [Jump]
+<br>Dive, [Sprint]
+<br>Land, [Sneak]</p>
+<br>*Air swipe, [Left Power Attack]
+<br>*Roar, [Right Attack]</p>
+<p>*Must be in combat mode
+</td></tr></table>
+
+<p>As a dragon, you receive 50% less incoming damage and have +50 stamina.
+<br>Weapon attack speed affects dragon attack speed if you have a weapon equipped in the right hand (Elemental Fury shout, changes to actor value 'weaponspeedmult,' etc.)</p>
+
+<p>Note: Most settings are updated during the transformation sequence, they are not updated immediately.
+<br>Recommended to use SkyUI MCM menu, but the following console commands serve the same purpose.</p>
+<p><i>set PDDragonType to ___</i> (Any number from 0-13, depending on DLC's loaded)</p>
+<ol start="0">
+<li>Regular</li>
+<li>Blood</li>
+<li>Frost</li>
+<li>Fire</li>
+<li>Gray</li>
+<li>Skeletal</li>
+<li>Elder</li>
+<li>Ancient</li>
+<li>Dark</li>
+<li>Avatar</li>
+<li>Revered (DG DLC)</li>
+<li>Legendary (DG DLC)</li>
+<li>Undead (DG DLC)</li>
+<li>Serpentine (DB DLC)</li>
+</ol>
+<p><i>set PDAutoLand to ___</i> (1 or 0, toggles whether colliding on something makes you land)</p>
+<p><i>set PDFastTransform to ___</i> (1 or 0, toggles whether to skip animations and some visuals during transformation)</p>
+<p><i>set PDFriendlyNPCs to ___</i> (1 or 0, toggles hostility with human NPCs when transformed)</p>
+<p><i>set PDFriendlyDragons to ___</i> (1 or 0, toggles hostility with dragon NPCs when transformed)</p>
+
+<h2>Copying Appearance</h2>
+<p>In addition to the global value for setting dragon type, you can copy the appearance of any dragon you see (including mod added).
+Use the "Copy Dragon Appearance" lesser power when near a dragon. Using it again will let you clear the appearance.
+<br>The copied appearance overrides the selected PDdragontype variable and the MCM dropdown menu.
+<br>If you don't have the spell, use the following console command:
+<br><i>player.addspell xx1037c3</i></p>
+
+</div>
+
+<div id="Main4">
+<h2 style="text-align:right;">Perks</h2>
+<p style="margin-left:30em;">Hover over the name to view the descriptions.<br>
+There is no in-game implementation of a perk system. You will have to add them yourself via console commands or MCM menu.</p>
+<br>
+<div id="perkGraph">
+<div class="PerkGraphTitle" style="top:340px;left:-40px;">Increased Mass (0/2)
+		<div class="PerkGraphInfo">Level 1: Gain an additional 50 health.<br> Level 2: In dragon form, HP scales according to level.</div>
+</div>
+<div class="PerkGraphTitle" style="top:292px;left:125px;">Brute Strength (0/2)
+		<div class="PerkGraphInfo">Level 1: Increases unarmed damage by 20.<br> Level 2: Unarmed damage also scales to health.</div>
+</div>
+<div class="PerkGraphTitle" style="top:565px;left:230px;">Hardy (0/2)		<div class="PerkGraphInfo">Level 1: Become 50% more resistant to disease.<br> Level 2: Become immune to diseases.</div></div>
+<div class="PerkGraphTitle" style="top:160px;left:200px;">Passionate Tongue (0/5)
+	<div class="PerkGraphInfo">Level 1: Shout cooldowns are reduced by 10%.
+	<br>Level 2: Shout cooldowns are reduced by 20%.
+	<br>Level 3: Shout cooldowns are reduced by 30%.
+	<br>Level 4: Shout cooldowns are reduced by 40%.
+	<br>Level 5: Shout cooldowns are reduced by 50%.</div>
+	</div>
+<div class="PerkGraphTitle" style="top:0px;left:270px;">Night Eye (0/1)		<div class="PerkGraphInfo">Level 1: Gain the ability to see in the dark.</div></div>
+<div class="PerkGraphTitle" style="top:65px;left:620px;">Yolsu'um (0/2)		<div class="PerkGraphInfo">Level 1: Fire Breath scales to Destruction skill level.<br> Level 2: While in dragon form, Toor and Shul have stronger effects.</div></div>
+<div class="PerkGraphTitle" style="top:-6px;left:920px;">Fosu'um (0/2)<div class="PerkGraphInfo">Level 1: Frost Breath scales to Destruction skill level.<br> Level 2: While in dragon form, Krah and Diin have stronger effects.</div></div>
+<div class="PerkGraphTitle" style="top:310px;left:630px;">Domineering (0/1)<div class="PerkGraphInfo">Level 1: Your intimidation factor is higher.</div></div>
+<div class="PerkGraphTitle" style="top:340px;left:920px;">Zofaas (0/2)<div class="PerkGraphInfo">Level 1: Dismay scales with Illusion skill level.<br> Level 2: While in dragon form, Dismay has a reduced cooldown and covers a large area.</div></div>
+<div class="PerkGraphTitle" style="top:415px;left:420px;">Steel Scales (0/1)<div class="PerkGraphInfo">Level 1: Reduce physical damage by 10%.</div></div>
+<div class="PerkGraphTitle" style="top:607px;left:660px;">Mirror Scales (0/2)<div class="PerkGraphInfo">Level 1: 20% chance to reflect damage.<br> Level 2: In dragon form, an additional 30% chance to deflect arrows.</div></div>
+</div>
+Console: Type player.addperk
+<br>xx is the load order of the mod
+<table style="margin:1em auto;"><tr><td>
+<p><i>addperk xxF95FB</i> (Night Eye 1)</p>
+<p><i>addperk xxF8B20</i> (Brute Strength 1)</p>
+<p><i>addperk xxF8B22</i> (Brute Strength 2)</p>
+<p><i>addperk xxF8B24</i> (Increased Mass 1)</p>
+<p><i>addperk xxF8B26</i> (Increased Mass 2)</p>
+<p><i>addperk xxF8B28</i> (Passionate Tongue 1)</p>
+<p><i>addperk xxF908E</i> (Passionate Tongue 2)</p>
+<p><i>addperk xxF95F5</i> (Passionate Tongue 3)</p>
+<p><i>addperk xxF95F6</i> (Passionate Tongue 4)</p>
+<p><i>addperk xxF95F7</i> (Passionate Tongue 5)</p>
+<p><i>addperk xxF95FC</i> (Domineering)</p>
+</td><td>
+<p><i>addperk xxF95FD</i> (Zofaas 1)</p>
+<p><i>addperk xxF9B63</i> (Zofaas 2)</p>
+<p><i>addperk xxF9B64</i> (Hardy 1)</p>
+<p><i>addperk xxF9B65</i> (Hardy 2)</p>
+<p><i>addperk xxF9B6C</i> (Steel Scales 1)</p>
+<p><i>addperk xxF9B6D</i> (Mirror Scales 1)</p>
+<p><i>addperk xxFA0D3</i> (Mirror Scales 2)</p>
+<p><i>addperk xxFA0D4</i> (Yolsu'um 1)</p>
+<p><i>addperk xxFA0D5</i> (Yolsu'um 2)</p>
+<p><i>addperk xxFA0D6</i> (Fosu'um 1)</p>
+<p><i>addperk xxFA0D7</i> (Fosu'um 2)</p>
+</td></tr></table>
+</div>
+
+<div id="Main5">
+<h2 style="text-align:right;">Changelog</h2>
+<h3>Version 1.2 (August 10 2018)</h3>
+<ul>
+<li>Added dragon breathing sounds.</li>
+<li>Added a spell to copy another dragon's appearance.</li>
+</ul>
+
+<h3>Version 1.1 (August 5 2018)</h3>
+<ul>
+<li>Fixed being unable to exit the nesting idle if the game was saved in that state.</li>
+<li>Fixed an issue where landing while sprinting would keep the speed permanently high.</li>
+<li>Dive/sprint improvements.</li>
+<li>Fixed the shout perk level 5 not applying.</li>
+<li>Removed headtracking while shouting on the ground in combat mode.</li>
+<li>Added pitch-tracking to ground attacks and flying (head follows up-down camera angle).</li>
+<li>Changed Sneak-activated landing animation (auto-land still uses hasty landing).</li>
+
+</ul>
+
+<h3>Version 1.0 (July 17 2018)</h3>
+<ul><li>First Release.</li>
+</ul>
+</div>
+</div>
+
+<div id="footer">Webpage © 2018 Ceruulean (Diana Wu) 
+<br>The site is intended for entertainment purposes only. The author of the site is not an official representative of Bethesda Softworks.
+<br><i>The Elder Scrolls V: Skyrim</i> © Bethesda Softworks. All rights reserved.</div>
+<script src="PaaD.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</body>
+
+</html>
