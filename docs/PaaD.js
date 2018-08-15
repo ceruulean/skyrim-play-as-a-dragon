@@ -162,7 +162,7 @@ function SetNavLiClass(stringstyle) {
 	while (ii < endd) { NavList[ii].className = stringstyle; //NavList[ii].setAttribute("style", stringstyle);
 	ii ++;}*/
 	
-	NavUl.className = stringstyle
+	idNav.className = stringstyle
 }
 
 function ToggleFigure(figg, displaystring, url) {
