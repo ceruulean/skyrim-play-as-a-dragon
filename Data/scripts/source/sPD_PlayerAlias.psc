@@ -229,6 +229,7 @@ function Transform(actor Caster, race toRace, bool bBeast)
 	if bBeast
 		sAfterAnim = "bleedOutStartSpecial"
 		Caster.EquipItem(TransformQST.SetWearingSkin(), true, true)
+		Caster.EquipItem(Unarmed, abSilent=True)
 	else
 		sAfterAnim = "bleedOutStart"
 		Caster.UnequipItem(TransformQST.WearingSkin, false, true)
@@ -248,6 +249,7 @@ bHasFearfulPresence2 = Caster.HasPerk(PDselfFearfulPresence2)
 
 	if bBeast
 		Caster.EquipItem(TransformQST.SetWearingSkin(), true, true)
+		Caster.EquipItem(Unarmed, abSilent=True)
 	else
 		Caster.UnequipItem(TransformQST.WearingSkin, false, true)
 		Caster.Removeitem(TransformQST.WearingSkin, 1, True, none)
@@ -297,3 +299,4 @@ Spell Property PDperkFearfulPresence2 Auto
 Spell Property PDperkFearfulPresence3 Auto
 Spell Property PDGrabFlightSpell Auto
 Globalvariable Property PDFastTransform Auto
+Weapon Property Unarmed Auto

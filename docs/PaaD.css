@@ -7,7 +7,7 @@
 --NavIconActColor:rgba(229, 183, 103,0.9);
 --HighlightColor:rgba(229, 183, 103,1);
 
---ReadWidth:47em;;
+--ReadWidth:55em;
 }
 
 body{
@@ -20,6 +20,9 @@ color:#a4afb5;}
 
 p{margin-top:0px;
 margin-bottom:5px;
+}
+
+img{max-width:100%;
 }
 
 .cBGImg{position:relative;
@@ -374,7 +377,6 @@ line-height:1em;
 padding:5vh 3vw;
 }
 
-
 @media screen and (max-width: 1024px) {
      /* start of large tablet styles */
 
@@ -425,6 +427,9 @@ margin:1.6em 0 0 2.3em;}
 	 
 h1{ font-size:2em;
 margin-left:2em;
+}
+
+#nav{font-size:25px;
 }
 
 #NavIcon{
